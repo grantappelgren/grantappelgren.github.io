@@ -9,47 +9,57 @@
 		<header>
 			<h1>The Card Trading & Collecting Post</h1>
 		
-			<p ID="slogan">Expressing my passion for card trading, collecting, and investing</p>
+			<p ID="slogan">Sharing my passion for trading, collecting, and investing in cards</p>
 		</header>
 		
 		<section>
 			<nav>
+				<a href="#">Collection</a>
 				<a href="#">Baseball</a>
 				<a href="#">Basketball</a>
-				<a href="#">Pokemon</a>
-				<a href="#">Yu-Gi-Oh</a>
+				<a href="#">Pokémon</a>
+				<a href="#">Yu-Gi-Oh!</a>
+				<a href="https://www.ebay.com/sch/grappe_44/m.html?_nkw=&_armrs=1&_ipg=&_from=">Store</a>
 			</nav>
 		</section>
 
 		<main>
-			<img src="images/Cards.jpg" alt="Picture of Rare Yu-Gi-Oh Cards" title="Rare Yu-Gi-Oh Cards">
+			<h2 ID="search">Explore My Collection!</h3>
 
-			<h2>Search My Collection</h3>
-
-			<p>Sharing my trading card collection with the world. Always buying, selling, and searching for new additions.</p>
-
-			<h3>What to Explore:</h2>
-
-			<ul>
-				<li>All the cards in my collection</li>
-				<li>Links to ebay selling pages</li>
-				<li>Resources on PSA process and trading card industry trends</li>
-			</ul>
-
+			<form class="browse">
+				<input type="text" placeholder="Type a player, card, deck, rareity, etc." name="search">
+				<button type="submit"><i class="submit"></i>Submit</button>
+			</form>
 		</main>
+
+		<style>
+		main {
+			background-image: url("images/Cards.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			width: auto;
+			height: 900px;;
+		}	
+		</style>
 		
 		<addition>
-			<h4><a href="#">PSA-Graded</a></h4>
+			<div ID="graded">
+				<h4><a href="#">PSA-Graded</a></h4>
 
-			<p>Cards authenticated and graded by PSA</p>
+				<p>Cards authenticated and graded by PSA</p>
+			</div>
 
-			<h4><a href="#">To-Be-Graded</a></h4>
+			<div ID="tobegraded">
+				<h4><a href="#">To-Be-Graded</a></h4>
 
-			<p>Cards will be submitted for authentication and grading by PSA</p>
+				<p>Cards will be submitted for authentication and grading by PSA</p>
+			</div>
 
-			<h4><a href="#">Raw</a></h4>
+			<div ID="raw">
+				<h4><a href="#">Raw</a></h4>
 
-			<p>Cards will not be submitted to PSA</p>
+				<p>Cards will not be submitted to PSA</p>
+			</div>
 		</addition>
 		
 		<footer>
