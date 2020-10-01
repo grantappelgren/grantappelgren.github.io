@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap');
+/*font-family: 'Red Rose', cursive;*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #000000;
+	line-height: 2em;
+}
+
+header {
+	font-family: 'Red Rose', cursive;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: #F5E9CE;
+	padding: 0.025em;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 0.6em;
+}
+
+nav {
+	color: #cccccc;
+    background-color: #000000;
+    background-size: cover;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 5em;
+    padding: 0.75em;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	font-weight: bold;
+}
+
+a:active {
+	color: red;
+}
+
+main {
+	color: #ffffff;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+#search {
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 2.5em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+form.browse input[type=text] {
+	padding: 0.5em;
+	font-size: 1em;
+	border: 0.05em solid grey;
+	width: 30%;
+	background: #f1f1f1;
+}
+
+form.browse button {
+	width: auto;
+	padding: 0.5em;
+	background: #f1f1f1;
+	color: grey;
+	font-size: 1em;
+	border: 0.05em solid grey;
+	border-left: none;
+	cursor: pointer;
+}
+
+#graded, #tobegraded, #raw {
+	background-color: #000000;
+	color: #cccccc;
+	padding: 0.15em;
+	text-align: center;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+h2, h4 {
+	font-family: 'Red Rose', cursive;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	height: 0;
+	font-size: 0;
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+#psa {
+	width: 100%;
+	background-color: #000000;
+	margin: auto;
+}
+
+#raw {
+	float: left;
+	width: 25%;
+	margin-left: 5%;
+}
+
+#graded {
+	float: right;
+	width: 25%;
+	margin-right: 5%;
+}
+
+#tobegraded {
+	margin: 0 auto;
+	width: 25%;
+}
+
+hr {
+	width: 50px;
+}
+
+footer {
+	font-family: 'Red Rose', cursive;
+	text-align: center;
+	background-color: #F5E9CE;
+	padding: 0.025em;
+}
+
+span {
+	color: red;
+}
+
+span:hover {
+	color: white;
+}
+
+
+
+
